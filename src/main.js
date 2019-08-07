@@ -5,7 +5,7 @@ const VueGoogleMaps = require('vue2-google-maps')
 
 Vue.use(VueGoogleMaps, {
   load: {
-    key: process.env.VUE_APP_API_KEY,
+    key: process.env.VUE_APP_GMAPS_API_KEY,
     libraries: 'places'
   }
 })
